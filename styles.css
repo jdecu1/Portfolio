@@ -152,12 +152,28 @@ footer {
   border-radius: 4px;
 }
 
+#experience li::marker {
+  content: "🛡️ ";
+}
 
-#cases ul { 
-    list-style: disc; }
+#cases li::marker {
+  content: "💼 "; }
 
 #cases li {
   padding: 0.5rem 0 0.65rem;
   border-bottom: 1px solid #eef2f7;
 }
 #cases li:last-child { border-bottom: none; }
+
+#education li::marker {
+  content: "🎓 "; }
+
+#projects li::marker {
+  content: "⚙️ ";}
+
+#blogs li::marker {
+  content: "🌐 ";}
+
+#articles li::marker {
+  content: "📰 "; }
+
