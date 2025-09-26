@@ -20,7 +20,7 @@ html {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.55;
-  background: var(--bg);
+  background: var(--silver);
   color: #222;
 }
 
@@ -78,26 +78,23 @@ body {
   box-shadow: 0 0 0 3px rgba(255,255,255,.25) inset;
 }
 
-
-
 .page-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 2rem;
-  max-width: 980px;
-  margin: 1.25rem auto;
-  padding: 1.25rem;
+  max-width: 2000px;
+  margin: 1.5rem auto;
+  padding: 0 2rem;
 }
-
-
 
 .card {
   background: var(--card);
   border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0,0,0,.08);
+  box-shadow: 0 12px 36px rgba(0,0,0,.35);
   padding: 1.25rem 1.25rem 1.5rem;
-  border-top: 1px solid var(--line);
+  border: 1px solid #b0b0b0;
 }
+
 
 .card:first-child {
   border-top: none;
